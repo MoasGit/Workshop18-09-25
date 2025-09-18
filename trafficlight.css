@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.big-box {
+    background-color: white;
+    max-width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.middle-box {
+    width: 200px;
+    height: 200px;
+    border: 16px solid;
+    margin-bottom: 6px;
+}
+
+#box-1 {
+    background-color: red;
+    border-color: darkred;
+}
+
+#box-2 {
+    background-color: yellow;
+    border-color: orange;
+}
+
+#box-3 {
+    background-color: green;
+    border-color: darkgreen;
+}
+
+#box-1 .small-box {
+    height: 50%;
+    background-color: pink;
+    margin-top: 50%;
+}
+
+#box-2 .small-box {
+    height: 50%;
+    background-color: white;
+    margin-top: 50%;
+    width: 50%;
+    margin-left: 50%;
+}
+
+#box-3 .small-box {
+    height: 50%;
+    background-color: black;
+    margin-top: 50%;
+    width: 50%;
+}
